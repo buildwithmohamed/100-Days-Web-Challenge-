@@ -41,7 +41,7 @@ This challenge will cover:
 
 | Day | Project | Description | Live Demo | Code |
 |-----|---------|-------------|------------|------|
-| 01  | Animated Hover Card | Flexbox, transitions | [Demo](https://buildwithmohamed.github.io/100-Days-Web-Challenge/Day-01-Animated-Hover-Card) | ✅ |
+| 01  | Animated Hover Card | Flexbox, transitions | [Demo](https://buildwithmohamed.github.io/100-Days-Web-Challenge-/) | ✅ |
 | 02  | ...     | ...         | ...        | ...  |
 | 03  | ...     | ...         | ...        | ...  |
 | 04  | ...     | ...         | ...        | ...  |
