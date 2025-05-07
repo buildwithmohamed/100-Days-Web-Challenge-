@@ -1,0 +1,35 @@
+@use "variables";
+@use "navigation";
+@use "maincontent";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: variables.$font-type;
+    background-color: variables.$primary-color;
+}
+
+.container {
+    display: flex;
+    width: 99vw;
+    height: 100%;
+}
+
+.navigation {
+    flex: 20%;
+    border: 1px solid red;
+    height: 900px;
+}
+
+.main-content {
+    flex: 80%;
+    border: 1px solid gold;
+    height: 900px;
+    color: black;
+}
