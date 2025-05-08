@@ -9,7 +9,9 @@
     padding: 10px;
 
 }
-
+.navigation {
+    border-right: 1px solid rgb(65, 105, 4);
+}
 
 
 .natigation-top {
@@ -70,6 +72,8 @@ h1{
     font-family: variables.$font-type;
     font-weight: 300;
     padding: 10px;
+    color: rgb(197, 194, 194);
+    
 }
 // Navigation_inbox 
 
@@ -102,8 +106,9 @@ h6 {
 .navigation__candidate  {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
     padding: 10px;
+    
 
 }
 
@@ -113,10 +118,15 @@ h6 {
     gap: 16px;
     padding: 5px;
     
+    
 }
 
 .navigation__candidate  h4{
-    font-weight: 100;
+
+    font-family: variables.$font-type;
+    font-weight: 300;
+    padding: 10px;
+    color: rgb(181, 178, 178);
 }
 
 .navigation__candidate  h5{
@@ -128,6 +138,7 @@ h6 {
     border-radius: 5px;
     font-weight: 300;
     cursor: pointer;
+    
     
   
 }
@@ -144,8 +155,11 @@ h6 {
 
 .navigation__candidate .backcolor:hover {
    
-    background-color: variables.$hover-color;
-    color:  variables.$hover-font-color;
+    // background-color: variables.$hover-color;
+    // color:  variables.$hover-font-color;
+    color: black;
+    background-color: greenyellow;
+    font-weight: 600;
 
 }
 
@@ -162,5 +176,74 @@ h6 {
 .navigation__Jobs .backcolor {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
+
+
+.circle {
+    padding: 2px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+
+.second-child , .first-child{
+    display: flex;
+    align-items: center;
+}
+
+
+.icons {
+    color: #0d1321;
+}
+
+
+.icons:hover {
+    color: white;
+}
+.navigation-bottom  {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ 
+}
+
+// Bottom
+.box {
+    align-items: end;
+    width: 90%;
+    height: 10vh;
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  
+
+}
+
+
+.margin-big {
+    margin-bottom: 40px;
+}
+
+
+
+.box h5 {
+    font-weight: 100;
+}
+
+
+
+.nav-right a:hover {
+    color: black;
+    background-color: greenyellow;
+    font-weight: 400;
+}
+
