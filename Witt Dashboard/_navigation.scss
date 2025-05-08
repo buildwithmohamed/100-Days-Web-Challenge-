@@ -5,9 +5,18 @@
 .navigation__logo {
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    // border: 1px solid red;
     padding: 10px;
 
+}
+
+
+
+.natigation-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
 }
 .left {
     display: flex;
@@ -28,15 +37,130 @@
 
 h1{
     color: variables.$primary-color;
+    font-weight: 300;
   
 }
 
-.company_name h3, h4 {
+
+
+.company_name h3, h4  {
     font-family: variables.$font-type;
+    font-weight: 300;
+}
+.company_name h3 {
+    font-weight: 400;
+}
+
+.company_name h4 {
+    font-weight: 100;
+    color: variables.$secondary-color;
+}
+
+.navigation__logo .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-standby  {
+    color: red;
+}
+
+.navigation__Jobs h4{
+    font-family: variables.$font-type;
+    font-weight: 300;
+    padding: 10px;
+}
+// Navigation_inbox 
+
+.navigation_inbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navigation_inbox .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navigation_inbox h5 {
+    background-color:  variables.$secondary-color;;
+    color: variables.$primary-color; ;
+    padding: 5px;
+    font-weight: 100;
+}
+
+h6 {
+    color: variables.$secondary-color;
+    font-weight: 100;
+    font-size: 0.9em;
 }
 
 
-.company_name h4 {
+.navigation__candidate  {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+
+}
+
+.navigation__candidate  > div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 5px;
+    
+}
+
+.navigation__candidate  h4{
+    font-weight: 100;
+}
+
+.navigation__candidate  h5{
+    font-weight: 100;
+}
+
+.navigation__candidate .backcolor {
+    background-color: variables.$grey;
+    border-radius: 5px;
     font-weight: 300;
-    color: variables.$secondary-color;
+    cursor: pointer;
+    
+  
+}
+
+
+// .navigation__candidate  h5:hover{
+//     color:  variables.$hover-font-color;
+// }
+
+.navigation__Jobs {
+    padding: 10px;
+}
+
+
+.navigation__candidate .backcolor:hover {
+   
+    background-color: variables.$hover-color;
+    color:  variables.$hover-font-color;
+
+}
+
+.navigation__Jobs .backcolor .first-child {
+    display: flex;
+    gap: 5px;
+
+}
+
+.navigation__Jobs .backcolor .first-child h5 {
+    font-weight: 200;
+}
+
+.navigation__Jobs .backcolor {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
 }

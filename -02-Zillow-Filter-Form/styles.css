@@ -14,15 +14,19 @@ form {
     gap: 20px;
 }
 
-button {
+a {
     border: none;
-    width: 80px;
-    height: 35px;
+    /* width: 80px;
+    height: 45px; */
     text-align: center;
     border: 1px solid grey;
     background: none;
     border-radius: 5px;
     font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    color: black;
+    display: flex;
+   align-items: center;
 }
 
 .container {
@@ -300,3 +304,9 @@ option {
    font-family: "DM Sans", sans-serif;
    margin: auto;
   }
+
+
+
+.dropdownbtn {
+    
+}
