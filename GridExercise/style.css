@@ -65,7 +65,7 @@ h2 {
 
 
 img {
-    max-width: 100%;
+    width: 100%;
     grid-column: 1/5;
     height: 100%;
     /* aspect-ratio: 16/50; */
@@ -129,6 +129,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+
  
    
 }
@@ -144,9 +145,7 @@ a:hover {
 }
 
 a {
-    margin-left: 10px;
-    font-size: calc(0.2em + 0.7vw);
-    margin: 0;
+    font-size: calc(0.1em + 0.7vw);
     color: black;
     font-weight: 400;
 }

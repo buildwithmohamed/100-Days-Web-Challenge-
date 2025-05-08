@@ -42,7 +42,7 @@ This challenge will cover:
 | Day | Project | Description | Live Demo | Code |
 |-----|---------|-------------|------------|------|
 | 01  | Animated Hover Card | Flexbox, transitions | [Demo](https://buildwithmohamed.github.io/100-Days-Web-Challenge-/) | ✅ |
-| 02  | ...     | ...         | ...        | ...  |
+| 02  | Grid Exercise    | ...         | ...        | (https://singular-kringle-608867.netlify.app)  |
 | 03  | ...     | ...         | ...        | ...  |
 | 04  | ...     | ...         | ...        | ...  |
 | 05  | ...     | ...         | ...        | ...  |
