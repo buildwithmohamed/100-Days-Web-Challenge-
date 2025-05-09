@@ -43,8 +43,8 @@ This challenge will cover:
 |-----|---------|-------------|------------|------|
 | 01  | Animated Hover Card | Flexbox, transitions | [Demo](https://buildwithmohamed.github.io/100-Days-Web-Challenge-/) | ✅ |
 | 02  | Grid Exercise    | ...         | (https://singular-kringle-608867.netlify.app)    |   |
-| 03  | ...     | ...         | ...        |  |
-| 04  | ...     | ...         | ...        | (https://clinquant-treacle-bdee73.netlify.app) |
+| 03  | ...     | ...         | (https://clinquant-treacle-bdee73.netlify.app)       |  |
+| 04  | ...     | ...         | ...        |  |
 | 05  | ...     | ...         | ...        | ..  |
 | 06  | ...     | ...         | ...        | ...  |
 | 07  | ...     | ...         | ...        | ...  |
