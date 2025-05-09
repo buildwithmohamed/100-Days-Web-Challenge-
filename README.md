@@ -44,7 +44,7 @@ This challenge will cover:
 | 01  | Animated Hover Card | Flexbox, transitions | [Demo](https://buildwithmohamed.github.io/100-Days-Web-Challenge-/) | ✅ |
 | 02  | Grid Exercise    | Grid Layout        | (https://singular-kringle-608867.netlify.app)    | ✅   |
 | 03  | Watt Dashboard    | Flex Layout       | (https://clinquant-treacle-bdee73.netlify.app)       | ✅  |
-| 04  | ...     | ...         | ...        |  |
+| 04  | Responsive Team Card     | Pseudo Classes and Elements         | (https://harmonious-parfait-7e0dd9.netlify.app)       |  ✅  |
 | 05  | ...     | ...         | ...        | ..  |
 | 06  | ...     | ...         | ...        | ...  |
 | 07  | ...     | ...         | ...        | ...  |
