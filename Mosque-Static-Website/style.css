@@ -253,7 +253,7 @@ th, td {
   width: 100px;
 }
 
-@media screen and (max-width: 60em) {
+@media (min-width: 10em) and (max-width: 60em) {
   header nav {
     display: none;
   }
@@ -277,7 +277,7 @@ h2 {
 .donation {
   width: 70%;
   margin: 0 auto;
-  height: 100%;
+  height: auto;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -333,18 +333,19 @@ input {
 }
 
 .donation-image {
-  width: 50%;
+  flex: 1;
   height: 100%;
 }
 
-.donation-image img {
-  width: 100%;
-  height: 400px;
+.img-donate {
+  min-width: 300px;
+  height: 500px;
   border-radius: 10px;
   object-fit: cover;
 }
 
 .donation-form {
+  flex: 1;
   padding: 0px 20px;
 }
 
@@ -383,6 +384,10 @@ input {
   padding: 6px 40px;
   background-color: #ffb855;
   border-radius: 5px;
+}
+
+.img-donate {
+  width: 100%;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
