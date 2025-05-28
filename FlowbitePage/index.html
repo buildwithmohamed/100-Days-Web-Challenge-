@@ -7,10 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./dist/output.css">
 </head>
-<body>
+<body class="bg-gray-900 h-auto " >
         
         <section>
-                <div class="max-w-full h-14 sm:h-12 bg-gray-600  ">
+                <div class="max-w-full h-14 sm:h-12 bg-gray-600 fixed top-0 right-0 left-0  ">
                     <div class="max-w-3xl  px-3 py-3 sm:flex sm:m-auto sm:gap-2  ">
                         <div class="bg-blue-200 hidden sm:inline px-2 h-6 rounded-md text-center text-blue-900 ring-1 ring-red-400 ring-offset-2 ring-">New</div>
                         <p class="text-xs px-10 sm:p-0 text-gray-100 font-sans  font-light ">We have launched the new Flowbite Dashboard featuring over 60+ Pages   <a  href="" class="inline  items-center  text-blue-400 text-xs">Check it out 
@@ -24,45 +24,163 @@
 
         </section>
         
-        <nav class="max-w-full h-16 bg-gray-700 flex flex-col justify-center">
-            <div class="flex justify-between items-center px-2 sm:px-10">
-                <div>
-                    <h1 class="text-white text-lg font-bold  font-sans">FlowBite</h1>
+        <nav class="max-w-full h-12 bg-gray-800 flex flex-col justify-center fixed top-12 right-0 left-0  ">
+            <div class="flex justify-between items-center px-2 sm:px-10 ">
+                <div class="flex gap-10 items-center ">
+                    <div>
+                        <h1 class="text-white text-lg font-bold  font-sans">FlowBite</h1>
+                    </div>
+                    <div class="hidden sm:flex  bg-gray-600 py-2.5 px-5 gap-1 items-center rounded-md hover:border-2 hover:border-blue-500 hover::border-solid font-mono ">
+                       
+                        <input type="search" name="" id="" class="text-xs text-gray-100  outline-none  px-1  " placeholder="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" class="size-6 w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                          </svg>
+                    </div>
                 </div>
                 <div class="flex items-center gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" class="size-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" class="size-6 w-5 h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                       </svg>
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" class="size-6">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" class="size-6 w-5 h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
                       </svg>
                       
                       
-                    <button class="bg-blue-600 px-5 py-2 rounded-md text-white text-sm " type="submit">Pricing</button>
+                    <button class="bg-blue-900 px-3 py-1.5 rounded-md text-white text-xs " type="submit">Pricing & FAQ</button>
                 </div>
             </div>
         </nav>
 
 
-        <section class=" flex flex-col sm:max-w-full gap-5  max-w-2xl  m-auto  bg-gray-900  ">
-            <div class="sm:max-w-3xl sm:m-auto sm:h-screen space-y-6">
-                <div class="space-y-3 px-3 py-2">
-                    <h1 class="text-white w-3xs  text-xl font-bold sm:text-2xl sm:w-full">Flowbit - Tailwind CSS Component Library</h1>
-                    <p class="w-sm  text-sm text-gray-500 sm:text-md sm:w-full">Get started with the most popular open source Library of interactive UI component built with the utility classes from Tailwind css</p>
-                </div>
-                <div class="space-y-3 px-3 py-2">
-                    <h2 class="text-white w-3xs  text-xl font-medium sm:text-2xl sm:w-full">Introduction</h2>
-                    <p class="text-sm text-gray-500 sm:text-md sm:w-full">Flowbite is an open-source library of UI components based on the utility-first Tailwind CSS framework featuring dark mode support, a Figma design system, templates, and more.</p>
-                    <p class="text-sm text-gray-500 sm:text-md sm:w-full">It includes all of the commonly used components that a website requires, such as buttons, dropdowns, navigation bars, modals, but also some more advanced interactive elements such as datepickers.</p>
-                    <p class="text-sm text-gray-500 sm:text-md sm:w-full">All of the elements are built using the utility classes from Tailwind CSS and vanilla JavaScript with support for TypeScript.</p>
-                </div>
-    
-                <div class="max-w-md px-3 sm:max-w-full ">
-                    <iframe class="w-full h-58 sm:h-98" src="https://www.youtube.com/embed/KaLxCiilHns?si=e6fcGh8RZfvIMXBj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+      
+        <div class="flex sm:py-20  ">
+            <div class=" hidden sm:visible sm:flex-[25%] sm:flex sm:flex-col sm:items-end     ">
+               <div class=" sm:w-40 sm:h-screen overflow-scroll  sm:py-12 sm:space-y-20 ">
+                    <h1 class="text-white text-[0.3em] mb-3 ">GETTING STARTED</h1>
+                    <div class="  border-l-1 border-l-gray-400 border-l-solid px-4">
+                        <ul class="text-gray-400 space-y-1.5 flex flex-col gap-2 text-xs  ">
+                            <li class="text-blue-700 "><a class=" sm:hover:text-white"  href="">introduction</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in "  href="">Quickstart</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">JavaScript</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Typescript</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">LLM</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">License</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">ChangeLog</a></li>
+                        </ul>
+                    </div>
+                    <h1 class="text-white text-[0.3em] mb-3 ">Integration guides</h1>
+                    <div class="">
+                        <ul class="text-gray-400 space-y-1.5 flex flex-col gap-2 text-xs  ">
+
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in "  href="">Quickstart</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">JavaScript</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Typescript</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">LLM</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">License</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">ChangeLog</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in "  href="">React</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Next.js</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Vue</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Nuxt</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Svelte</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Angular</a></li>
+                        
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in "  href="">Astro</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Remix</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Meteor.js</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Gatsby</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">SolidJS</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Qwik</a></li>
+                        
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in "  href="">Laravel</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Symfony</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Rails</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Phoenix</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Django</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Flask</a></li>
+                        
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in "  href="">Blazor</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Hugo</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">Typescript</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">LLM</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">License</a></li>
+                            <li><a class=" sm:hover:text-white  transition duration-500 ease-in" href="">ChangeLog</a></li>
+                          
+                          
+                    </div>
+
+                    
+               </div>
+
+               
+
             </div>
-        </section>
+            <section class=" flex  flex-[50%]   py-24 sm:py-14 flex-col sm:max-w-full gap-5  max-w-2xl  m-auto  bg-gray-900  ">
+                <div class="sm:max-w-3xl sm:m-auto sm:h-screen overflow-auto space-y-6">
+                    <div class="space-y-3 px-3 py-2 border-b border-solid border-b-gray-800 pb-9">
+                        <h1 class="text-white w-3xs  text-xl font-bold sm:text-2xl sm:w-full">Flowbit - Tailwind CSS Component Library</h1>
+                        <p class="w-sm  text-sm text-gray-500 sm:text-md sm:w-full">Get started with the most popular open source Library of interactive UI component built with the utility classes from Tailwind css</p>
+
+                    </div>
+                    <div class="space-y-3 px-3 py-2">
+                        <h2 class="text-white w-3xs  text-xl font-medium sm:text-2xl sm:w-full">Introduction</h2>
+                        <p class="text-sm text-gray-500 sm:text-md sm:w-full">Flowbite is an open-source library of UI components based on the utility-first Tailwind CSS framework featuring dark mode support, a Figma design system, templates, and more.</p>
+                        <p class="text-sm text-gray-500 sm:text-md sm:w-full">It includes all of the commonly used components that a website requires, such as buttons, dropdowns, navigation bars, modals, but also some more advanced interactive elements such as datepickers.</p>
+                        <p class="text-sm text-gray-500 sm:text-md sm:w-full">All of the elements are built using the utility classes from Tailwind CSS and vanilla JavaScript with support for TypeScript.</p>
+                    </div>
         
+                    <div class="max-w-md px-3 sm:max-w-full ">
+                        <iframe class="w-full h-58 sm:h-98" src="https://www.youtube.com/embed/KaLxCiilHns?si=e6fcGh8RZfvIMXBj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="space-y-5">
+                        <p class="text-sm text-gray-500 sm:text-md sm:w-full shadow-md">Here’s a quick overview of the Flowbite ecosystem including the open source Tailwind components library, the Figma design files, and the pro version.</p>
+                        <div class="grid grid-cols-1 px-3 sm:grid-cols-2 gap-4">
+                            <div class="w-full h-[130px] bg-gray-800 py-4 px-10 rounded-md space-y-4 shadow-md">
+                               <h3 class="text-white font-bold text-xl">Quickstart</h3>
+                               <p class="text-sm font-light text-gray-400">Learn how to get started by downloading and configuring Flowbite locally on your machine and start developing.</p>
+                            </div>
+                            <div class="w-full h-[130px] bg-gray-800 py-4 px-10 rounded-md space-y-4 shadow-md ">
+                                <h3 class="text-white font-bold text-xl">Components</h3>
+                                <p class="text-sm font-light text-gray-400">Explore the Tailwind CSS elements such as buttons, navbars, alerts, dropdowns and use them to build your website.</p>                        
+                            </div>
+                            <div class="w-full h-[130px] bg-gray-800 py-4 px-10 rounded-md space-y-4 shadow-md">
+                                <h3 class="text-white font-bold text-xl" >Figma design files</h3>
+                                <p  class="text-sm font-light text-gray-400">Free and open-source collection of over 430 solid and outline styled SVG icons to use with our UI component library and Figma.</p>
+                             
+                            </div>
+                            <div class="w-full h-[130px] bg-gray-800 py-4 px-10 rounded-md space-y-4 shadow-md">
+                                <h3 class="text-white font-bold text-xl" >Flowbite Blocks</h3>
+                                <p class="text-sm font-light text-gray-400">Take your Figma and Tailwind CSS development to the next level with thousands more elements and pages with Flowbite Pro.</p>
+                          
+                            </div>
+                            <div class="w-full h-[130px] bg-gray-800 py-4 px-10 rounded-md space-y-4 shadow-md">
+                                <h3 class="text-white font-bold text-xl">Quickstart</h3>
+                                <p class="text-sm font-light text-gray-400">Learn how to get started by downloading and configuring Flowbite locally on your machine and start developing.</p>
+                        
+                            </div>
+                            <div class="w-full h-[130px] bg-gray-800 py-4 px-10 rounded-md space-y-4 shadow-md">
+                                <h3 class="text-white font-bold text-xl">Upgrade to Pro</h3>
+                                <p class="text-sm font-light text-gray-400">Check out over 450+ website sections and advanced UI components built with Tailwind CSS and the Flowbite Library.</p>
+                             </div>
+                            </div>
+    
+                        </div>
+                   
+                </div>
+
+              
+                </div>
+            </section>
+    
+            <div class="flex-[25%]">
+
+            
+            </div>
+
+
+        </div>
+
 
 
 </body>
