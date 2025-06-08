@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@theme {
+    --color-secondary: ;
+    --color-primary: ;
+
+    --font-neuton:  "Neuton", "serif";
+     --font-Roboto: "Roboto Flex", "sans-serif";
+}
