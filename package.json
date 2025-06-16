@@ -1,0 +1,22 @@
+{
+  "name": "webblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "@tailwindcss/postcss": "^4.1.10",
+    "postcss": "^8.5.6"
+  },
+  "devDependencies": {
+    "tailwind-scrollbar": "^4.0.2",
+    "tailwindcss": "^4.1.10"
+  }
+}
