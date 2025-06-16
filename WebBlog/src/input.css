@@ -1,4 +1,19 @@
 @import "tailwindcss";
 
 
+@theme {
+    --font-roboto : Roboto Flex, sans-serif;
+  
+   --color-custom: #d1fae5;
+    --color-custom-light: #10b981;
+}
 
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
