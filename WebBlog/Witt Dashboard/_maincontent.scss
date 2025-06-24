@@ -1,0 +1,185 @@
+@use 'variables';
+
+// .icons {
+//     color: #777777;
+// }
+
+h5 {
+    color: #777777;
+    font-weight: 200;
+    // font-size: 0.9rem;
+    padding-right: 10px;
+    
+}
+
+.search-box a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+
+    font-weight: 100;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-evenly;
+    // justify-content: space-between;
+    align-items: center;
+    // width: 11vw;
+    height:3vh ;
+    padding: 10px;
+    gap: 10px;
+    
+   
+
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+    padding: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #8b8b8b;
+    background-color: #d6d6d6;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 0.8rem;
+  
+   
+
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.main-content__nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main-content {
+    padding: 10px;
+}
+
+
+.search-box div {
+    background-color: #b0b0b0;
+
+}
+
+.Initial {
+    background-color: #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+.Initial  h1 {
+    color: black;
+    font-size: 1em;
+}
+
+.job-applied {
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    width: 12vw;
+}
+
+.jobs-posted {
+  
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.date-applied  {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.date-applied h3 {
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.date-applied h4 {
+    font-weight: 300;
+    font-size: 0.8em;
+    color: rgb(164, 162, 162);
+}
+
+
+.job-posted-1 {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+    // align-items: center;
+    // border-radius: 6px;
+    
+}
+.end {
+    display: flex;
+    gap: 10px;
+    // justify-content: center;
+    align-items: center;
+}
+
+.end div {
+    
+    display: flex;
+    // gap: 10px;
+    // justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 4vh;
+    color: #181818;
+}
+
+.end .left {
+    // background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(202, 202, 202);;
+
+}
+
+.end .right {
+        background-color: #f2f2f2;
+    // border: 2px solid rgb(202, 202, 202);;
+}
+
+
+.end .tick {
+    background-color: greenyellow;
+    border: none;
+}
+
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // padding: 20px;
+
+}
+
+h4 {
+    text-align: justify;
+}

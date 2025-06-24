@@ -1,11 +1,49 @@
 @import "tailwindcss";
 
 
+
+
 @theme {
-    --font-roboto : Roboto Flex, sans-serif;
-  
-   --color-custom: #d1fae5;
-    --color-custom-light: #10b981;
+
+
+  /* Fonts */
+  --font-Playfair: "Playfair Display", serif;
+  --font-Caprasimo: "Caprasimo", serif;
+  --font-PT: "PT Serif", serif;
+  --font-Noto: "Noto Serif", serif;
+  --font-Garamond: "EB Garamond", serif;
+  --font-Alegreya: "Alegreya", serif;
+
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+
+
+  --color-blue-100: hsl(219, 54%, 95%);
+  --color-blue-200: hsl(219, 54%, 85%);
+  --color-blue-300: hsl(219, 54%, 75%);
+  --color-blue-400:hsl(219, 54%, 65%);
+  --color-blue-500: hsl(219, 54%, 55%);
+  --color-blue-600: hsl(219, 54%, 45%);
+  --color-blue-700: hsl(219, 54%, 35%);
+  --color-blue-800: hsl(219, 54%, 25%);
+  --color-blue-900: hsl(219, 54%, 15%);
+  --color-blue-1000: hsl(219, 54%, 5%);
+
+
+  --color-gray-100: hsl(240, 8%, 95%);
+  --color-gray-200:hsl(240, 6%, 85%);
+  --color-gray-300:hsl(240, 7%, 75%);
+  --color-gray-400: hsl(240, 7%, 65%);
+  --color-gray-500: hsl(240, 7%, 55%);
+  --color-gray-600: hsl(240, 7%, 45%);
+  --color-gray-700: hsl(240, 7%, 35%);
+  --color-gray-800: hsl(240, 7%, 25%);
+  --color-gray-900:hsl(240, 7%, 15%);
+  --color-gray-1000:hsl(240, 7%, 5%);
+
+
+
 }
 
 @layer utilities {
@@ -17,3 +55,4 @@
     scrollbar-width: none;
   }
 }
+
