@@ -77,3 +77,15 @@ This challenge will cover:
 
 MIT License — Free to use, remix, or contribute.
 
+
+
+
+
+Weblog Project 
+
+- Progress Summary
+
+- Implemented a Dashboard view that, when clicked, displays the full dashboard interface.
+- Developed functionality to dynamically fetch and render page content using a fetch(page) method to load specific sections or data asynchronously.
+- Set up basic navigation logic to ensure smooth transitions between pages or views within the application.
+- Focused on improving user experience by ensuring the dashboard loads comprehensively without partial content or blank screens.
